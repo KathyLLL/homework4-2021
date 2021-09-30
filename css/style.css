@@ -31,78 +31,52 @@ body{
   background-size: cover ;
   background-position: center;
   font-family: Andika,sans-serif;
-  background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD; 
-  height: 500px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-  
-  
-
+  background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   /*Req 1*/
 }
 
 h1{
-  color: #c12258;
   font-size: 32px;
+  color: #c12258;
   text-align: center;
   line-height: 2;
-
-
   /*Req 2*/
 }
 
 p{
   padding-top: 15px;
- 
 }
 
 a{
   font-size: 16px;
   color: #B21F50;
-  
-  /*wavy underline*/
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #00FFFF; 
-  /*placeholder - change color depending on axe color contrast */
-
-  
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
-
-
 td{
   text-align: center;
   border-top: 2px solid #000000;
   padding: 10px;
 }
-
-
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
   text-transform: uppercase;
   background: #7e0825;
-
-
 }
 
 .rowhead{
   border-right: 2px solid #000000;
   border-top: 2px solid #000000;
-
-
-
 }
-
-
 table{
     border: 5px solid #000000;
     margin-left: auto;
@@ -119,32 +93,29 @@ thead tr:first-child th:first-child{}
 *:focus{
   border: 3px dashed #417243 ;
 }
-
 tbody>tr:hover{
   background-color: rgba(126, 8, 37,.25);
 }
-
-tr:nth-child(even){
-  background-color: #D1D1D1;
-}
-tr:nth-child(odd){
-  background-color: transparent;
-
-}
-.colhead:first-child{
-  border-top-right-radius: 50px;
-}
-.colhead:last-child{
+thead tr:first-child th:first-child{
   border-top-left-radius: 50px;
 }
 
-tr:last-child>.rowhead{
+/*Add selectors and rules here*/
+thead tr:last-child th:last-child{
+  border-top-right-radius: 50px;
+}
+
+tbody tr:last-child th:first-child{
   border-bottom-left-radius: 50px;
 }
-tr:last-child>td:last-child{
+
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px;
 }
 
+tr:nth-child(even){
+  background-color: #D1D1D1
+}
 
 footer{
   width:100%;
