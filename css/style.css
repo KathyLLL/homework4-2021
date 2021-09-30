@@ -40,8 +40,8 @@ body{
 h1{
   font-size: 32px;
   color: #c12258;
-  text-align: center;
   line-height: 2;
+  text-align: center;
   /*Req 2*/
 }
 
@@ -53,17 +53,19 @@ a{
   font-size: 16px;
   color: #B21F50;
   text-decoration-line: underline;
+  text-decoration-color: #00FF0E; 
   text-decoration-style: wavy;
-  text-decoration-color: #00FFFF; 
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
+
 td{
   text-align: center;
   border-top: 2px solid #000000;
   padding: 10px;
 }
+
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
@@ -77,6 +79,7 @@ td{
   border-right: 2px solid #000000;
   border-top: 2px solid #000000;
 }
+
 table{
     border: 5px solid #000000;
     margin-left: auto;
@@ -122,10 +125,9 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-
   position:fixed;
-  bottom:0;
   left:0;
+  bottom:0;
   width: 100%;
   min-height: 75px;
 }
