@@ -34,6 +34,7 @@ body{
   background-color: #DDDDDD; 
   background-image: url("../images/pigeon-background.JPEG");
   background-repeat: no-repeat;
+  background-size: cover; 
   /*Req 1*/
 }
 
@@ -72,6 +73,7 @@ td{
   text-align: center;
   padding: 10px;
   text-transform: uppercase;
+  vertical-align: middle;
   background: #7e0825;
 }
 
@@ -83,8 +85,8 @@ td{
 table{
     border: 5px solid #000000;
     margin-left: auto;
-    border-radius: 50px; 
     margin-right: auto;
+    border-radius: 50px; 
 }
 
 /* I gave you the selector, but not the property-value pair. 
